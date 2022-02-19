@@ -1,0 +1,14 @@
+import 'modern-normalize/modern-normalize.css';
+import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css';
+import './index.css';
+import './styles.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './Components/App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
